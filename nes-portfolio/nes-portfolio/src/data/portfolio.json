@@ -1,0 +1,172 @@
+{
+  "personal": {
+    "name": "Thomas Jensen",
+    "title": "Full Stack Developer",
+    "email": "sample@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Your Location",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "portfolio": "https://yourportfolio.com",
+    "profileImage": "/api/placeholder/300/300"
+  },
+  "about": {
+    "summary": "Passionate full-stack developer with experience in modern web technologies. I love creating efficient, scalable solutions and learning new technologies to solve complex problems.",
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Vue.js"]
+      },
+      {
+        "category": "Backend",
+        "items": ["Node.js", "Python", "Express.js", "Django", "REST APIs", "GraphQL"]
+      },
+      {
+        "category": "Database",
+        "items": ["MongoDB", "PostgreSQL", "MySQL", "Redis"]
+      },
+      {
+        "category": "Tools & Others",
+        "items": ["Git", "Docker", "AWS", "Firebase", "Webpack", "Vite"]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Tech Solutions Inc.",
+        "position": "Senior Frontend Developer",
+        "duration": "2023 - Present",
+        "description": "Led development of responsive web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "company": "Digital Innovations Ltd.",
+        "position": "Full Stack Developer",
+        "duration": "2021 - 2023",
+        "description": "Developed and maintained full-stack applications using MERN stack. Implemented RESTful APIs and optimized database queries for improved performance."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
+      "image": "/api/placeholder/400/250",
+      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+      "liveUrl": "https://ecommerce-demo.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "technologies": ["Vue.js", "Firebase", "Vuetify", "PWA"],
+      "image": "/api/placeholder/400/250",
+      "githubUrl": "https://github.com/yourusername/task-manager",
+      "liveUrl": "https://taskmanager-demo.com",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A responsive weather dashboard that displays current weather conditions and forecasts using external APIs.",
+      "technologies": ["JavaScript", "HTML5", "CSS3", "Weather API"],
+      "image": "/api/placeholder/400/250",
+      "githubUrl": "https://github.com/yourusername/weather-dashboard",
+      "liveUrl": "https://weather-demo.com",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Blog CMS",
+      "description": "A content management system for blogs with markdown support, SEO optimization, and admin panel.",
+      "technologies": ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
+      "image": "/api/placeholder/400/250",
+      "githubUrl": "https://github.com/yourusername/blog-cms",
+      "liveUrl": "https://blog-cms-demo.com",
+      "featured": false
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "credentialId": "AWS-SA-2023-001",
+      "image": "/api/placeholder/200/150",
+      "verificationUrl": "https://aws.amazon.com/verification"
+    },
+    {
+      "id": 2,
+      "name": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date": "2023",
+      "credentialId": "GCP-PD-2023-002",
+      "image": "/api/placeholder/200/150",
+      "verificationUrl": "https://cloud.google.com/verification"
+    },
+    {
+      "id": 3,
+      "name": "Meta Frontend Developer Certificate",
+      "issuer": "Meta",
+      "date": "2022",
+      "credentialId": "META-FE-2022-003",
+      "image": "/api/placeholder/200/150",
+      "verificationUrl": "https://coursera.org/verification"
+    },
+    {
+      "id": 4,
+      "name": "MongoDB Certified Developer",
+      "issuer": "MongoDB University",
+      "date": "2022",
+      "credentialId": "MONGO-DEV-2022-004",
+      "image": "/api/placeholder/200/150",
+      "verificationUrl": "https://university.mongodb.com/verification"
+    }
+  ],
+  "practicum": [
+    {
+      "id": 1,
+      "title": "Full Stack Web Development Bootcamp",
+      "institution": "Code Academy Pro",
+      "duration": "6 months (2021)",
+      "description": "Intensive bootcamp covering full-stack development with hands-on projects. Built 5 major projects including e-commerce site, social media app, and RESTful APIs.",
+      "skills": ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
+      "projects": [
+        "E-commerce website with payment integration",
+        "Social media platform with real-time chat",
+        "RESTful API for inventory management"
+      ],
+      "certificate": "/api/placeholder/300/200"
+    },
+    {
+      "id": 2,
+      "title": "Advanced React Development",
+      "institution": "TechEd Institute",
+      "duration": "3 months (2022)",
+      "description": "Advanced React concepts including state management, testing, performance optimization, and modern React patterns.",
+      "skills": ["React", "Redux", "Jest", "React Testing Library", "TypeScript"],
+      "projects": [
+        "Complex state management application",
+        "Performance-optimized dashboard",
+        "Comprehensive testing suite implementation"
+      ],
+      "certificate": "/api/placeholder/300/200"
+    },
+    {
+      "id": 3,
+      "title": "Cloud Architecture Practicum",
+      "institution": "Cloud Masters Academy",
+      "duration": "4 months (2023)",
+      "description": "Hands-on experience with cloud architecture, deployment strategies, and DevOps practices using AWS and containerization.",
+      "skills": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+      "projects": [
+        "Microservices architecture deployment",
+        "Automated CI/CD pipeline setup",
+        "Scalable cloud infrastructure design"
+      ],
+      "certificate": "/api/placeholder/300/200"
+    }
+  ]
+}
